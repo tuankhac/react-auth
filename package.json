@@ -1,0 +1,46 @@
+{
+  "name": "react-auth-example",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@trendmicro/react-sidenav": "^0.5.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "express-session": "^1.17.0",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.12",
+    "mysql": "^2.18.1",
+    "mysql-connection-pool-manager": "^1.5.9",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-dom": "^16.12.0",
+    "react-js-pagination": "^3.0.3",
+    "react-metismenu": "^1.4.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.0",
+    "react-select": "^3.0.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "node server.js",
+    "server-dev": "nodemon server.js"
+  },
+  "proxy": "http://localhost:4000",
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

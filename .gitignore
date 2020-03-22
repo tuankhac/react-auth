@@ -1,0 +1,7 @@
+#loai bo
+
+.vscode/
+node_modules/
+public/
+public/adminlte
+public/awesome
