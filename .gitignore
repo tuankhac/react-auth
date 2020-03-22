@@ -2,6 +2,6 @@
 
 .vscode/
 node_modules/
-public/
+# public/
 public/adminlte
 public/awesome
